@@ -1,0 +1,11 @@
+framework module TestPODJS {
+  umbrella header "TestPODJS.h"
+  export *
+
+  module * { export * }
+}
+
+module TestPODJS.Swift {
+  header "TestPODJS-Swift.h"
+  requires objc
+}
